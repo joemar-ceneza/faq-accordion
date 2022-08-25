@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+.active {
+  color: red;
+}
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 0.75rem;
+  background-color: hsl(273deg, 75%, 66%);
+  background-image: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#faq-accordion {
+  background-color: #fff;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  overflow: hidden;
+}
+#faq-accordion .faq-accordion-container {
+  display: flex;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-img {
+  width: 50%;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-img .woman-online {
+  width: 40%;
+  position: absolute;
+  top: 20%;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions {
+  width: 50%;
+  margin-bottom: 4em;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 2em 0 1em 0;
+  letter-spacing: 0.8px;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions {
+  width: 80%;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions .questions {
+  color: hsl(237deg, 12%, 33%);
+  font-weight: 400;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions .questions:hover {
+  color: hsl(14deg, 88%, 65%);
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions .questions img {
+  width: 3%;
+  height: 3%;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions .answer {
+  display: none;
+  width: 80%;
+  color: hsl(240deg, 6%, 50%);
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions .answer p {
+  margin-bottom: 0;
+}
+#faq-accordion .faq-accordion-container .faq-accordion-questions hr {
+  width: 80%;
+  color: hsl(240deg, 6%, 50%);
+}/*# sourceMappingURL=style.css.map */
