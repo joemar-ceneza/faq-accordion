@@ -1,85 +1,125 @@
-* {
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-html {
-  height: 100%;
-}
-
-.active {
-  color: red;
-}
-
 body {
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: 'Kumbh Sans', sans-serif;
   font-size: 0.75rem;
-  background-color: hsl(273deg, 75%, 66%);
-  background-image: linear-gradient(hsl(273deg, 75%, 66%), hsl(240deg, 73%, 65%));
+  background-color: #af67e9;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background-image: linear-gradient(#af67e9, #6565e7);
   background-repeat: no-repeat;
   background-attachment: fixed;
   height: 100%;
 }
 
-#faq-accordion {
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+main .faq-accordion-container {
+  max-width: 900px;
+  width: 80%;
+  height: 450px;
   background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 20px;
+}
+
+main .faq-accordion-container .faq-accordion-image {
   width: 50%;
-  height: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 30px;
+  background-image: url(../images/bg-pattern-desktop.svg);
+  background-position: -260px;
+  background-repeat: no-repeat;
+  background-size: 600px 600px;
+  position: relative;
   overflow: hidden;
 }
-#faq-accordion .faq-accordion-container {
-  display: flex;
+
+main .faq-accordion-container .faq-accordion-image .illustraion-woman-image {
+  width: 90%;
+  vertical-align: middle;
+  position: relative;
+  top: 70px;
+  right: 70px;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-img {
-  width: 50%;
-}
-#faq-accordion .faq-accordion-container .faq-accordion-img .woman-online {
-  width: 40%;
+
+main .faq-accordion-container .faq-accordion-image .illustration-box {
   position: absolute;
-  top: 20%;
+  bottom: 80px;
+  right: 350px;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions {
+
+main .faq-accordion-container .faq-accordion {
   width: 50%;
-  margin-bottom: 4em;
+  padding: 4em 4em 4em 0;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions h1 {
-  font-size: 1.8rem;
+
+main .faq-accordion-container .faq-accordion .faq-accordion-title {
+  font-size: 1.7rem;
+  text-transform: uppercase;
   font-weight: 700;
-  margin: 2em 0 1em 0;
-  letter-spacing: 0.8px;
+  margin-bottom: 1.5em;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions {
-  width: 80%;
-}
-#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions .questions {
-  color: hsl(237deg, 12%, 33%);
-  font-weight: 400;
+
+main .faq-accordion-container .faq-accordion .faq-accordion-questions-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85%;
+}
+
+main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .faq-accordion-questions .faq-accordion-question {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #36374a;
+  margin-bottom: 1em;
   cursor: pointer;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions .questions:hover {
-  color: hsl(14deg, 88%, 65%);
+
+main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .faq-accordion-questions .faq-accordion-question:hover {
+  color: #f47c57;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions .accordion-questions .questions img {
-  width: 3%;
-  height: 3%;
-}
-#faq-accordion .faq-accordion-container .faq-accordion-questions .answer {
+
+main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .faq-accordion-questions .faq-accordion-answer {
   display: none;
-  width: 80%;
-  color: hsl(240deg, 6%, 50%);
+  font-size: 0.7rem;
+  color: #787887;
+  margin-bottom: 2em;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions .answer p {
-  margin-bottom: 0;
+
+main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .faq-accordion-arrow-down .arrow-down {
+  padding: 0 1em;
+  cursor: pointer;
 }
-#faq-accordion .faq-accordion-container .faq-accordion-questions hr {
-  width: 80%;
-  color: hsl(240deg, 6%, 50%);
-}/*# sourceMappingURL=style.css.map */
+
+main .faq-accordion-container .faq-accordion hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+  width: 85%;
+  margin-bottom: 1.3em;
+}
+/*# sourceMappingURL=style.css.map */
