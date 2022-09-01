@@ -11,6 +11,20 @@ Accordion layout has all answers hidden and shows the answer when you click on t
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for the component depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Hide/Show the answer to a question when the question is clicked
+
+### Screenshot
+
+![faq-accordion](https://user-images.githubusercontent.com/20262557/187940544-c3025a77-f3f1-41e9-90e4-fb0b7241a6b5.PNG)
   
 ## Front-end Style Guide
 
