@@ -113,19 +113,24 @@ main .faq-accordion-container .faq-accordion .faq-accordion-questions-container 
   cursor: pointer;
 }
 
-main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .faq-accordion-questions .font-weight {
-  font-weight: 700;
-}
-
 main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .faq-accordion-answer {
   display: none;
   font-size: 0.7rem;
   color: #787887;
-  margin-bottom: 2em;
+  margin: 1em 0 1.8em 0;
 }
 
-main .faq-accordion-container .faq-accordion .faq-accordion-questions-container .show-answer {
+main .faq-accordion-container .faq-accordion .show-answer .arrow-down {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+main .faq-accordion-container .faq-accordion .show-answer .faq-accordion-answer {
   display: block;
+}
+
+main .faq-accordion-container .faq-accordion .font-weights .faq-accordion-question {
+  font-weight: 700;
 }
 
 main .faq-accordion-container .faq-accordion hr {
