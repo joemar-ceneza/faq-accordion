@@ -66,7 +66,6 @@ main{
                     align-items: center;
                     .faq-accordion-question{
                         font-size: 0.85rem;
-                        font-weight: 400;
                         color: hsl(237, 16%, 25%);
                         cursor: pointer;
                         &:hover{
@@ -87,7 +86,11 @@ main{
                     margin: 1em 0 1.8em 0;
                 }
             }
+            // Show and hide answer
             .show-answer{
+                .faq-accordion-question{
+                    font-weight: 700;
+                }
                 .arrow-down{
                     transform: rotate(180deg);
                 } 
