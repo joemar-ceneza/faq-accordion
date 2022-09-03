@@ -25,6 +25,28 @@ Users should be able to:
 ### Screenshot
 
 ![faq-accordion](https://user-images.githubusercontent.com/20262557/187940544-c3025a77-f3f1-41e9-90e4-fb0b7241a6b5.PNG)
+
+### Links
+
+- Solution URL: [Solution URL here](https://github.com/joemar-ceneza/faq-accordion)
+- Live Site URL: [Solution URL here](https://joemar-ceneza.github.io/faq-accordion/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS, Sass
+- Flexbox
+- Desktop First Workflow
+- JavaScript
+- AddEventListner
+- classList.add and classList.remove
+
+### Useful resources
+
+- [Modal Tutorial](https://www.youtube.com/watch?v=c5SIG7Ie0dM&t=421s) by [Coding Addict](https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA)
+- [Javascript Tutorial and Projects Course](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/) by [John Smilga](https://www.johnsmilga.com/)
   
 ## Front-end Style Guide
 
