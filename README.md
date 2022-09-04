@@ -39,13 +39,14 @@ Users should be able to:
 - CSS, Sass
 - Flexbox
 - Desktop First Workflow
-- JavaScript
-- AddEventListner
-- classList.add and classList.remove
+- HTML DOM Document querySelector and querySelectorAll()
+- JavaScript Array forEach()
+- JavaScript if Statement
+- HTML DOM Element classList.remove and classList.toggle
 
 ### Useful resources
 
-- [Modal Tutorial](https://www.youtube.com/watch?v=c5SIG7Ie0dM&t=421s) by [Coding Addict](https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA)
+- [FAQ Accordion Tutorial](https://www.youtube.com/watch?v=c5SIG7Ie0dM&t=421s) by [Coding Addict](https://www.youtube.com/channel/UCMZFwxv5l-XtKi693qMJptA)
 - [Javascript Tutorial and Projects Course](https://www.udemy.com/course/javascript-tutorial-for-beginners-w/) by [John Smilga](https://www.johnsmilga.com/)
   
 ## Front-end Style Guide
