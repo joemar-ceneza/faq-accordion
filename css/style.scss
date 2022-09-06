@@ -143,3 +143,55 @@ main{
         }
     }
 }
+@media(max-width: 780px){
+    main{
+        .faq-accordion-container{
+            max-width: 300px;
+            height: 500px;
+            flex-direction: column;
+            .faq-accordion-image{
+                width: 100%;
+                height: 110px;
+                background-position: -120px;
+                background-size: 200px 200px;
+                overflow: visible;
+                .illustraion-woman-image{
+                    width: 70%;
+                    top: -90px;
+                    left: 50px;
+                }
+                .illustration-box{
+                    width: 25%;
+                    bottom: 65px;
+                    right: 190px;
+                }
+            }
+            .faq-accordion{
+                width: 100%;
+                padding: 0 2em 2em 2em;
+                .faq-accordion-title{
+                    font-size: 1.9rem;
+                    text-align: center;
+                    margin-bottom: 1em;
+                }
+                .faq-accordion-questions-container{
+                    .faq-accordion-questions{
+                        .arrow-down{
+                            width: 13%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 400px){
+    main{
+        min-height: 110vh;
+    }
+}
+@media(max-height: 700px){
+    main{
+        min-height: 110vh;
+    }
+}
