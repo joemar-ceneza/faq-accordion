@@ -11,6 +11,9 @@ Accordion layout has all answers hidden and shows the answer when you click on t
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+- [Front End Style](#front-end-style-guide)
+- [Colors](#colors)
+- [Typography](#typography)
 
 ## Overview
 
@@ -51,7 +54,7 @@ Users should be able to:
   
 ## Front-end Style Guide
 
-## Layout
+### Layout
 
 The designs were created to the following widths:
 
@@ -60,7 +63,7 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
+#### Primary
 
 #### Text
 
@@ -87,11 +90,11 @@ Background gradient:
 
 ## Typography
 
-### Body Copy
+#### Body
 
 - Font size: 12px
 
-### Font
+#### Font
 
 - Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
 - Weights: 400, 700 
